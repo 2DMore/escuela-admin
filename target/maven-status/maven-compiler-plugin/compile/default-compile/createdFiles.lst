@@ -1,0 +1,7 @@
+org\uady\admin\controller\ProfesorController.class
+org\uady\admin\service\AlumnoService.class
+org\uady\admin\service\ProfesorService.class
+org\uady\admin\entity\Alumno.class
+org\uady\admin\entity\Profesor.class
+org\uady\admin\EscuelaAdminApplication.class
+org\uady\admin\controller\AlumnoController.class
