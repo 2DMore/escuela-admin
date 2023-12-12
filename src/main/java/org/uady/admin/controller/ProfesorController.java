@@ -52,7 +52,7 @@ public class ProfesorController {
 	}
 	
 	@PutMapping("/{id}")
-	public ResponseEntity<?> updateProfesor(@RequestBody Map<String,Object> dato, @PathVariable(value="id")Long id) {
+	public ResponseEntity<?> updateProfesor(@RequestBody  Map<String,Object> dato, @PathVariable(value="id")Long id) {
 		try {
 			return ResponseEntity.status(200).body(profesorService.updateProfesorConID(dato, id));
 		}catch(Exception e) {
