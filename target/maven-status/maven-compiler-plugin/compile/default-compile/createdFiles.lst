@@ -1,7 +1,12 @@
+org\uady\admin\service\S3Service.class
+org\uady\admin\configuration\DynamoDBConfig.class
+org\uady\admin\entity\Alumno.class
+org\uady\admin\entity\Sesion.class
+org\uady\admin\EscuelaAdminApplication.class
 org\uady\admin\controller\ProfesorController.class
+org\uady\admin\repository\ProfesorRepository.class
 org\uady\admin\service\AlumnoService.class
 org\uady\admin\service\ProfesorService.class
-org\uady\admin\entity\Alumno.class
 org\uady\admin\entity\Profesor.class
-org\uady\admin\EscuelaAdminApplication.class
 org\uady\admin\controller\AlumnoController.class
+org\uady\admin\repository\AlumnoRepository.class
