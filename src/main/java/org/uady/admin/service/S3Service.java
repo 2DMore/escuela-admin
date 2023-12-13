@@ -27,9 +27,9 @@ public class S3Service {
 			AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
 					.withRegion(Regions.US_EAST_1)
 					.withCredentials(new AWSStaticCredentialsProvider(new BasicSessionCredentials(
-							"ASIAVNYK52H4Q37WQM5I",
-							"82EA5DGpuM+BNbszhKlXaa+z2ptlaMSJHIyq//ty",
-							"FwoGZXIvYXdzEM3//////////wEaDLsnvEXMdQVhRZzkJCLLAZdJInHo9xFMGdz+dWyQOvpHWMtFRggNK5m4Y0d5EyNlPMTFZKSP8ZmPxdFWf+32I/Q0+yKA+vmLDulo8InCPDP6EXyPhERlWF8nTfSqHHnzvzJ7RpCDMuG+/cxfYabfxdLvk63XEdCDonfd3BvnV/8F1SUlI3hdpvZBSbtMBgTL7MbaGAeOVR6fu3jgqTis1KcKCxA5Y5cjikFmh6FpJ3yf/d4f4f0y8+dDuxE3IFKsWXhsp7WFw9jcMrCLWeG+BAd3JcMWmV7r3Y+qKLr44qsGMi04XpmibuQyGKUSxDHQ7P4JDsEWjbyKQITCdvUo5C3eaRxsSqMA+K+bvTtZeHI=")))
+							"ASIAVNYK52H4ZERFNAOQ",
+							"Q+p1TE4PIyDOv5h1huLmg1o1pwPk5S9GKQZOOwh1",
+							"FwoGZXIvYXdzENL//////////wEaDAKuzlLD4IXisXM9QSLLAQJx4cnN/3GCvMcee7FF0OnCQ2XV3SVbQ1A9zAiKyhSVaXOzvFWzdFrbgXh2M2AE7+PdHecciuMXLLbm5hLCrv+219zLEk+yct2kGKjhk/3hxGp1yStqQ2bY11juAW36WPc0aSxnuvK1S1dFhLZa9SCiVRKAiVr+vyGIPDZJ9Ym07SBl7PWLz4ow/0o/+k9Ss6KoQcbcqNwgAnbWizA0pbSF4CWbXVFQzWvItw853uTPCxk2IQvURGUJxvR3cC/xCmxEBmcGgGVJFCMPKJ6B5KsGMi1UUpz3itVOxqLfWMHr8uFm8PQZoE/aFv73DHMXlVqFnrHFF6k1B9P383tZu38=")))
 					.build();
 		    TransferManager tm = null;
         
